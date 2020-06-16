@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<title>
+			About Me
+		</title>
+		<link rel="sylesheet" href="/Desktop/shruthi-/project0/aboutMe.css" />
+		<meta name="viewport" content="width = device-width, initial-scale = 1.0" />
+		<style>
+			#input {
+				background-color: tan;
+				height: 25px;
+			}
+			@media (min-width: 500px) {
+				h1::before {
+					content: Welcome to my web page;
+				}
+			}
+			@media (max-width: 499px) {
+				h1::before {
+					content: Welcome;
+				}
+			}
+			.container {
+				display: flex;
+				flex-wrap: wrap;
+			}
+			.container > div {
+				background-color: brown;
+				margin: 20px;
+				padding: 20px;
+			}
+		</style>
+	</head>
+	<body style="background-color: pink;">
+		<h1></h1>
+		<div class="container">
+			<div>
+				Ambivert to a major extent <br />Stay ever hungry for knowledge!
+			</div>
+			<div>
+				Ambivert to a major extent <br />Stay ever hungry for knowledge!
+			</div>
+			<div>
+				Ambivert to a major extent <br />Stay ever hungry for knowledge!
+			</div>
+			<div>
+				Ambivert to a major extent <br />Stay ever hungry for knowledge!
+			</div>
+			<div>
+				Ambivert to a major extent <br />Stay ever hungry for knowledge!
+			</div>
+			<div>
+				Ambivert to a major extent <br />Stay ever hungry for knowledge!
+			</div>
+			<div>
+				Ambivert to a major extent <br />Stay ever hungry for knowledge!
+			</div>
+			<div>
+				Ambivert to a major extent <br />Stay ever hungry for knowledge!
+			</div>
+		</div>
+		<div id="inputDiv">
+			<input id="input" list="books" placeholder="books" />
+			<datalist id="books">
+				<option value="the runaway jury"></option>
+				<option value="tale of 2 cities"></option>
+				<option value="mobi dick"></option>
+			</datalist>
+			<button type="submit">okay</button>
+		</div>
+		<ol>
+			<li>star gazing</li>
+			<li>mountain trek</li>
+			<li>country bike ride</li>
+		</ol>
+	</body>
+</html>
